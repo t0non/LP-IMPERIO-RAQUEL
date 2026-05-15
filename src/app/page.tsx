@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { Menu, Zap, Layout, Grid, Power, ShieldCheck, Clock, MapPin, CheckCircle, Smartphone, MessageCircle, Star, ChevronDown, Wrench, Shield, Image as ImageIcon } from "lucide-react";
 import Link from "next/link";
 
+// Componente principal da Landing Page
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
